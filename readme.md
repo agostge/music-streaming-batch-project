@@ -4,6 +4,12 @@
 
 This project simulates the processing of fake music streaming data. It generates data, stores it in MinIO storage, performs analytics using pandas, and is orchestrated by Apache Airflow. The processed results are then uploaded into a PostgreSQL database. The purpose of this project is to showcase a batch processing pipeline for handling datasets in a scalable and fault-tolerant manner.
 
+
+![Flowchart Description](/home/gergo/Desktop/de-practice/music_streaming_batch_project/assets/flowchart.png)
+
+
+
+
 ## Tech Stack
 - **Airflow**: Data orchestration & transformation
 - **MinIO**: Storage layer (compatible with Amazon S3)
