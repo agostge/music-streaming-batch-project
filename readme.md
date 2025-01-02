@@ -1,9 +1,12 @@
-
+﻿
 Introduction
 
-This project simulates the processing of fake music streaming data. It generates data, stores it in MinIO storage, performs analytics using pandas, orchestrated by Apache Airflow, and uploads the results into a PostgreSQL database. The purpose of this project is to showcase a batch processing pipeline for handling  datasets in a scalable, fault-tolerant manner.
+
+This project simulates the processing of fake music streaming data. It generates data, stores it in MinIO storage, performs analytics using pandas, orchestrated by Apache Airflow, and uploads the results into a PostgreSQL database. The purpose of this project is to showcase a batch processing pipeline for handling datasets in a scalable, fault-tolerant manner.
+
 
 Tech Stack
+
 
 Airflow - Data orchestration & Transformation
 MinIO - Storage Layer
@@ -37,10 +40,12 @@ python scripts/upload_to_minio.py
 
 Requirements
 
+
 Docker 
 Python with the requirements installed
 
 Environment Setup
+
 
 1. Build the docker image using docker compose file by navigating to the project folder and running the following command
 
@@ -67,6 +72,7 @@ airflow scheduler
 
 
 Run Instructions
+
 
 1. Generate the data by running the following script:
 
